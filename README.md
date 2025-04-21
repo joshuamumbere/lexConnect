@@ -1,17 +1,50 @@
-# lexconnect
+# lexConnect - Legal Consultation Platform
 
-A new Flutter project.
+![lexConnect Logo](https://github.com/joshuamumbere/lexConnect/blob/main/assets/icons/icon.png) <!-- Replace with your actual logo -->
 
-## Getting Started
+lexConnect is a Flutter-based mobile application that connects clients with verified legal professionals for consultations and legal services.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Client Features**:
+  - Browse verified lawyer profiles
+  - Filter lawyers by specialty, rating, and experience
+  - Schedule consultations
+  - Secure messaging with legal professionals
+  - Document sharing with end-to-end encryption
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Lawyer Features**:
+  - Professional profile management
+  - Appointment scheduling
+  - Client management dashboard
+  - Secure document exchange
+  - Verification system for credentials
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# lexConnect
+## Technical Stack
+
+- **Frontend**: Flutter (iOS & Android)
+- **Backend**: Firebase/Firestore (or your backend)
+- **State Management**: Provider/Bloc/Riverpod (choose one)
+- **Authentication**: Firebase Auth
+- **Payment Integration**: Stripe/Razorpay
+- **CI/CD**: GitHub Actions/Fastlane
+
+## Development Setup
+
+### Prerequisites
+
+- Flutter SDK (version 3.13.0 or higher)
+- Dart SDK (version 3.1.0 or higher)
+- Android Studio/Xcode (for platform-specific builds)
+- Firebase account (if using Firebase services)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/joshuamumbere/lexConnect.git
+   cd lexconnect
+
+2. Install dependencies:
+    ```bash
+    flutter pub get
