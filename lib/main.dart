@@ -5,6 +5,7 @@ import 'screens/roleselectionscreen.dart';
 import 'screens/clientonboarding_screen.dart';
 import 'screens/clientdashboard_screen.dart';
 import 'screens/lawyerverification_screen.dart';
+import 'screens/verificationpending_screen.dart';
 
 void main() {
   runApp(const MyApp());

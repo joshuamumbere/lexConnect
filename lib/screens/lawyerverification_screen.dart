@@ -18,6 +18,8 @@ class _LawyerVerificationScreenState extends State<LawyerVerificationScreen>
   late AnimationController _controller;
   late Animation<double> _scaleAnimation;
   late Animation<double> _opacityAnimation;
+  final TextEditingController _expirationDateController =
+      TextEditingController();
 
   final _formKey = GlobalKey<FormState>();
   final ImagePicker _picker = ImagePicker();
@@ -232,6 +234,7 @@ class _LawyerVerificationScreenState extends State<LawyerVerificationScreen>
 
           // Expiration Date
           TextFormField(
+            controller: _expirationDateController,
             decoration: InputDecoration(
               labelText: 'Expiration Date',
               prefixIcon: const Icon(Icons.calendar_today_outlined),
@@ -701,7 +704,11 @@ class _LawyerVerificationScreenState extends State<LawyerVerificationScreen>
       },
     );
     if (picked != null) {
-      // Update your date field here
+      setState(() {
+        // Assuming you have a TextEditingController for the expiration date field
+        _expirationDateController.text =
+            '${picked.year}-${picked.month}-${picked.day}';
+      });
     }
   }
 
