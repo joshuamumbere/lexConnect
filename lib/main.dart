@@ -6,6 +6,7 @@ import 'screens/clientonboarding_screen.dart';
 import 'screens/clientdashboard_screen.dart';
 import 'screens/lawyerverification_screen.dart';
 import 'screens/verificationpending_screen.dart';
+import 'screens/guestbrowse_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
         '/client-dashboard': (context) => ClientDashboardScreen(),
         '/lawyer-verification': (context) => LawyerVerificationScreen(),
         '/verification-pending': (context) => VerificationPendingScreen(),
-        // '/browse': (context) => GuestBrowseScreen(),
+        '/browse': (context) => GuestBrowseScreen(),
       },
 
       // Optional: Custom theme
