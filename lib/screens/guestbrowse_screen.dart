@@ -437,6 +437,7 @@ class _GuestBrowseScreenState extends State<GuestBrowseScreen> {
                       onPressed: () {
                         Navigator.pop(context);
                         // Navigate to sign up
+                        Navigator.pushNamed(context, '/client-onboarding');
                       },
                       child: const Text('SIGN UP'),
                     ),
