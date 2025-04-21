@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'screens/splash_screen.dart';
 import 'screens/onboarding_screen.dart';
 import 'screens/roleselectionscreen.dart';
+import 'screens/clientonboarding_screen.dart';
+import 'screens/clientdashboard_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,13 +25,14 @@ class MyApp extends StatelessWidget {
         '/onboarding': (context) => const OnboardingScreen(),
         '/role-select': (context) => RoleSelectionScreen(),
         '/client-onboarding': (context) => ClientOnboardingScreen(),
+        '/client-dashboard': (context) => ClientDashboardScreen(),
         '/lawyer-verification': (context) => LawyerVerificationScreen(),
         '/browse': (context) => GuestBrowseScreen(),
       },
 
       // Optional: Custom theme
       theme: ThemeData(
-        fontFamily: 'Euclid',
+        fontFamily: 'FiraSans',
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
