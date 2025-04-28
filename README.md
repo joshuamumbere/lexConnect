@@ -48,3 +48,7 @@ lexConnect is a Flutter-based mobile application that connects clients with veri
 2. Install dependencies:
     ```bash
     flutter pub get
+
+<img src="WhatsApp Image 2025-04-28 at 17.36.39 (1).jpeg" alt="Initial screen" />
+<img src="WhatsApp Image 2025-04-28 at 17.36.39.jpeg" alt="Initial screen" />
+<img src="WhatsApp Image 2025-04-28 at 17.36.38 (2).jpeg" alt="Initial screen" />
