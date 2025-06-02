@@ -49,6 +49,6 @@ lexConnect is a Flutter-based mobile application that connects clients with veri
     ```bash
     flutter pub get
 
-<img src="WhatsApp Image 2025-04-28 at 17.36.39 (1).jpeg" alt="Initial screen" width="250px" height="500px"/>
+<img src="one.jpeg" alt="Initial screen" width="250px" height="500px"/>
 <!-- <img src="WhatsApp Image 2025-04-28 at 17.36.39.jpeg" alt="Initial screen" /> -->
 <!-- <img src="WhatsApp Image 2025-04-28 at 17.36.38 (2).jpeg" alt="Initial screen" /> -->
