@@ -49,6 +49,20 @@ lexConnect is a Flutter-based mobile application that connects clients with veri
     ```bash
     flutter pub get
 
+3. Run the application:
+    ```bash
+    flutter run
+
 <img src="one.jpeg" alt="Initial screen" width="250px" height="500px"/>
-<!-- <img src="WhatsApp Image 2025-04-28 at 17.36.39.jpeg" alt="Initial screen" /> -->
-<!-- <img src="WhatsApp Image 2025-04-28 at 17.36.38 (2).jpeg" alt="Initial screen" /> -->
+<img src="two.jpeg" alt="Initial screen" width="250px" height="500px"/>
+<img src="three.jpeg" alt="Initial screen" width="250px" height="500px"/>
+<img src="four.jpeg" alt="Initial screen" width="250px" height="500px"/>
+<img src="five.jpeg" alt="Initial screen" width="250px" height="500px"/>
+<img src="six.jpeg" alt="Initial screen" width="250px" height="500px"/>
+<img src="seven.jpeg" alt="Initial screen" width="250px" height="500px"/>
+<img src="eight.jpeg" alt="Initial screen" width="250px" height="500px"/>
+<img src="nine.jpeg" alt="Initial screen" width="250px" height="500px"/>
+<img src="ten.jpeg" alt="Initial screen" width="250px" height="500px"/>
+<img src="eleven.jpeg" alt="Initial screen" width="250px" height="500px"/>
+<img src="twelve.jpeg" alt="Initial screen" width="250px" height="500px"/>
+<img src="thirteen.jpeg" alt="Initial screen" width="250px" height="500px"/>
